@@ -24,6 +24,40 @@ I solved 10 problems of google classroom
 🎯 Outcome
 💡 Gained hands-on experience with C# syntax
 🖥️ Successfully executed C# programs using the .NET environment
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+📅 Date: 19-12-2025
+🚀 Topics Covered
+✅ Learned the functionality of C#
+🏗️ Understood the architecture of C#
+📦 Learned how C# programs are structured and executed
+🧩 Core C# Concepts
+📊 Learned about data types in C# (int, double, char, string, bool, object)
+
+🧠Practiced all types of operators in C#
+1.Arithmetic Operators
+2.Assignment Operators
+3.Relational Operators
+4.Logical Operators
+5.Unary Operators
+6.Ternary Operator
+7.is Operator
+
+🧠 Practice Work
+💻 Implemented C# programs using the learned concepts
+📁 Created programs for data types and operators
+🛠️ Practiced writing clean and structured code
+
+🎯 Outcome
+💡 Gained strong understanding of C# fundamentals
+
+
+
+
+
+
+
 
 
 
