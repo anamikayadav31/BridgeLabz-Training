@@ -69,7 +69,36 @@ I solved 10 problems of google classroom
 🎯 Outcome
 💡 Gained a clear understanding of how access modifiers work during execution in C#
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+📅 Date: 22-12-2025
+
+🚀 Topics Covered
+✅ Practiced C# control flow and basic problems
+📦 Understood the structure and execution flow of C# programs
+
+🧠 Practice Work
+💻 Solved basic C# practice problems
+📁 Created and implemented multiple practice programs of control flows
+🛠️ Focused on writing clean, readable, and structured code
+
+🎯 Outcome
+💡 Gained a clear understanding of control flows and how they affect program execution in C#
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 23-12-2025
+
+🚀 Topics Covered
+✅ Learned about arrays and their usage
+📦 Understood how arrays store and manage multiple values
+
+🧠 Practice Work
+💻 Solved basic array-related problems
+📁 Created and practiced multiple programs using arrays
+🛠️ Focused on accessing, updating, and traversing arrays
+
+🎯 Outcome
+💡 Gained a clear understanding of arrays and how they help organize and process data efficiently in programming
 
 
 
