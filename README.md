@@ -119,7 +119,36 @@ I solved 10 problems of google classroom
 💡 Learned how methods make code reusable, readable, and maintainable
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+📅 Date: 26-12-2025
+
+🚀 Topics Covered
+✅ Learned about strings and their usage
+✅ Learned about built-in methods of string  
+
+🧠 Practice Work
+💻 Solved basic string-related problems
+📁 Created and practiced multiple programs using built-in methods
+🛠️ Practiced calling methods and passing arguments
+
+🎯 Outcome
+💡 Gained a clear understanding of strings
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 29-12-2025
+
+🧠 Practice Work
+✅Learned about oop concept in csharp
+💻 Solved scenerio-based problems
+📁 Created and practiced programs on real life problems
+
+🎯 Outcome
+💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
 
 
 
