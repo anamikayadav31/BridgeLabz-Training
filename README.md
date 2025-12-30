@@ -147,3 +147,17 @@ I solved 10 problems of google classroom
 
 🎯 Outcome
 💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 30-12-2025
+
+🧠 Practice Work
+✅Learned about oop constructor and variables in csharp
+💻 Solved scenerio-based problems
+📁 Created and practiced programs on real life problems
+
+🎯 Outcome
+💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
+
+
