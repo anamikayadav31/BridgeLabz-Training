@@ -59,17 +59,17 @@ namespace BridgeLabzTraining.oops.sceneriobased.smartHomeAutomation
                         if (currentAppliance != null)
                             currentAppliance.TurnOff();
                         else
-                            Console.WriteLine("⚠️ No appliance is currently ON.");
+                            Console.WriteLine(" No appliance is currently ON.");
                         break;
 
                     case 5:
                         // Exit from application
-                        Console.WriteLine("👋 Exiting Smart Home System...");
+                        Console.WriteLine(" Exiting Smart Home System...");
                         return;
 
                     default:
                         // Handle invalid menu choice
-                        Console.WriteLine("❌ Invalid choice. Try again.");
+                        Console.WriteLine(" Invalid choice. Try again.");
                         break;
                 }
             }
