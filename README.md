@@ -8,8 +8,8 @@
 ⚖️ Studied Java vs C#
 ▶️ Learned how to write and run C# programs
 
-🧠 Practice Work
-I solved 10 problems of google classroom
+🧠Practice Work
+💻solved 10 problems of google classroom
 1.print "Welcome to BridgeLabz!"
 2-Addition of given two numbers
 3.convert the temperature in celsius into fahrenheit
@@ -20,8 +20,8 @@ I solved 10 problems of google classroom
 8.power calculation without using loops and conditionals
 9.-calculate the average of three numbers
 10.convert kilometeres into miles
----
 
+---
 
 
 📅 Date: 19-12-2025
@@ -45,6 +45,7 @@ I solved 10 problems of google classroom
 💻 Implemented C# programs using the learned concepts
 📁 Created programs for data types and operators
 🛠️ Practiced writing clean and structured code
+
 ---
 
 
@@ -59,6 +60,7 @@ I solved 10 problems of google classroom
 💻 Solved basic C# problems
 📁 Implemented multiple practice programs
 🛠️ Focused on writing clean and structured code
+
 ---
 
 
@@ -72,6 +74,7 @@ I solved 10 problems of google classroom
 💻 Solved basic C# practice problems
 📁 Created and implemented multiple practice programs of control flows
 🛠️ Focused on writing clean, readable, and structured code
+
 ---
 
 
@@ -85,6 +88,7 @@ I solved 10 problems of google classroom
 💻 Solved basic array-related problems
 📁 Created and practiced multiple programs using arrays
 🛠️ Focused on accessing, updating, and traversing arrays
+
 ---
 
 
@@ -104,6 +108,7 @@ I solved 10 problems of google classroom
 🎯 Outcome
 💡 Gained a clear understanding of arrays
 💡 Learned how methods make code reusable, readable, and maintainable
+
 ---
 
 
@@ -117,6 +122,7 @@ I solved 10 problems of google classroom
 💻 Solved basic string-related problems
 📁 Created and practiced multiple programs using built-in methods
 🛠️ Practiced calling methods and passing arguments
+
 ---
 
 
@@ -126,6 +132,7 @@ I solved 10 problems of google classroom
 ✅Learned about oop concept in csharp
 💻 Solved scenerio-based problems
 📁 Created and practiced programs on real life problems
+
 ---
 
 
@@ -135,6 +142,7 @@ I solved 10 problems of google classroom
 ✅Learned about constuctors and its type in csharp
 💻 Solved two scenerio-based problems
 📁 Created and practiced programs on real life problems
+
 ---
 
 
@@ -144,6 +152,7 @@ I solved 10 problems of google classroom
 ✅Learned about this,sealed, and static keyword in csharp
 💻 Solved three scenerio-based problems
 📁 Created and practiced programs on real life problems
+
 ---
 
 
@@ -153,6 +162,7 @@ I solved 10 problems of google classroom
 ✅Learned about object-oriented design pricipals in csharp
 💻 Solved one scenerio-based problems
 📁 studied object-modeling and class-diagrams
+
 ---
 
 
@@ -161,6 +171,7 @@ I solved 10 problems of google classroom
 🧠 Practice Work
 📁 applied the oops concepts by solving a real-world,scenerio-based problem
 💻 complete all my pending problems becauze of medical leave
+
 ---
 
 
@@ -171,6 +182,7 @@ I solved 10 problems of google classroom
 ✅Learned the concepts and solved problems of Linked List and its types.
 💻 Solved one scenerio-based problems
 📁 applied the oops concepts by solving a real-world scenerio-based problem
+
 ---
 
 📅 Date: 8-01-2026
@@ -180,6 +192,7 @@ I solved 10 problems of google classroom
 💻 solved problems related to stack,queue and hash function.
 💻 Solved one scenerio-based problems
 📁 applied the oops concepts by solving scenerio-based problems
+
 ---
 
 📅 Date: 9-01-2026
@@ -189,6 +202,7 @@ I solved 10 problems of google classroom
 💻solved all the questions based on sorting algorithms for ex.selection sort,bubble sort,merge sort,insertion sort.
 💻 Solved two scenerio-based problems
 📁 applied the oops concepts by solving scenerio-based problem
+
 ---
 
 📅 Date: 12-01-2026
@@ -197,5 +211,7 @@ I solved 10 problems of google classroom
 ✅Learned about the binary search,linear search ,string builder and stream reader.
 💻 Solved three scenerio-based problems
 📁 applied the oops concepts by solving scenerio-based problems
+
 ---
+
 
