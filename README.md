@@ -20,11 +20,8 @@ I solved 10 problems of google classroom
 8.power calculation without using loops and conditionals
 9.-calculate the average of three numbers
 10.convert kilometeres into miles
+---
 
-🎯 Outcome
-💡 Gained hands-on experience with C# syntax
-🖥️ Successfully executed C# programs using the .NET environment
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 📅 Date: 19-12-2025
@@ -48,11 +45,8 @@ I solved 10 problems of google classroom
 💻 Implemented C# programs using the learned concepts
 📁 Created programs for data types and operators
 🛠️ Practiced writing clean and structured code
+---
 
-🎯 Outcome
-💡 Gained strong understanding of C# fundamentals
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 20-12-2025
 🚀 Topics Covered
@@ -65,11 +59,8 @@ I solved 10 problems of google classroom
 💻 Solved basic C# problems
 📁 Implemented multiple practice programs
 🛠️ Focused on writing clean and structured code
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of how access modifiers work during execution in C#
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 22-12-2025
 
@@ -81,10 +72,8 @@ I solved 10 problems of google classroom
 💻 Solved basic C# practice problems
 📁 Created and implemented multiple practice programs of control flows
 🛠️ Focused on writing clean, readable, and structured code
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of control flows and how they affect program execution in C#
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 23-12-2025
 
@@ -96,10 +85,8 @@ I solved 10 problems of google classroom
 💻 Solved basic array-related problems
 📁 Created and practiced multiple programs using arrays
 🛠️ Focused on accessing, updating, and traversing arrays
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of arrays and how they help organize and process data efficiently in programming
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 24-12-2025
 
@@ -117,9 +104,8 @@ I solved 10 problems of google classroom
 🎯 Outcome
 💡 Gained a clear understanding of arrays
 💡 Learned how methods make code reusable, readable, and maintainable
+---
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 26-12-2025
 
@@ -131,14 +117,8 @@ I solved 10 problems of google classroom
 💻 Solved basic string-related problems
 📁 Created and practiced multiple programs using built-in methods
 🛠️ Practiced calling methods and passing arguments
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of strings
-
-
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 29-12-2025
 
@@ -146,11 +126,8 @@ I solved 10 problems of google classroom
 ✅Learned about oop concept in csharp
 💻 Solved scenerio-based problems
 📁 Created and practiced programs on real life problems
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 30-12-2025
 
@@ -158,11 +135,8 @@ I solved 10 problems of google classroom
 ✅Learned about constuctors and its type in csharp
 💻 Solved two scenerio-based problems
 📁 Created and practiced programs on real life problems
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 31-12-2025
 
@@ -170,12 +144,8 @@ I solved 10 problems of google classroom
 ✅Learned about this,sealed, and static keyword in csharp
 💻 Solved three scenerio-based problems
 📁 Created and practiced programs on real life problems
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
-
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 1-01-2026
 
@@ -183,29 +153,49 @@ I solved 10 problems of google classroom
 ✅Learned about object-oriented design pricipals in csharp
 💻 Solved one scenerio-based problems
 📁 studied object-modeling and class-diagrams
+---
 
-🎯 Outcome
-💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 6-01-2026
 
 🧠 Practice Work
 📁 applied the oops concepts by solving a real-world,scenerio-based problem
 💻 complete all my pending problems becauze of medical leave
+---
 
-
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 📅 Date: 7-01-2026
 
 🧠 Practice Work
 ✅Learned the proper structure to approach and solved scenerio-based problems
+✅Learned the concepts and solved problems of Linked List and its types.
 💻 Solved one scenerio-based problems
-📁 applied the oops concepts by solving a real-world,scenerio-based problem
+📁 applied the oops concepts by solving a real-world scenerio-based problem
+---
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+📅 Date: 8-01-2026
 
+🧠 Practice Work
+✅Learned about the hash functions ,stack and queue.
+💻 solved problems related to stack,queue and hash function.
+💻 Solved one scenerio-based problems
+📁 applied the oops concepts by solving scenerio-based problems
+---
 
+📅 Date: 9-01-2026
+
+🧠 Practice Work
+✅Learned about all the sorting algorithms
+💻solved all the questions based on sorting algorithms for ex.selection sort,bubble sort,merge sort,insertion sort.
+💻 Solved two scenerio-based problems
+📁 applied the oops concepts by solving scenerio-based problem
+---
+
+📅 Date: 12-01-2026
+
+🧠 Practice Work
+✅Learned about the binary search,linear search ,string builder and stream reader.
+💻 Solved three scenerio-based problems
+📁 applied the oops concepts by solving scenerio-based problems
+---
 
