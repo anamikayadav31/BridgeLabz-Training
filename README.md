@@ -150,4 +150,62 @@ I solved 10 problems of google classroom
 🎯 Outcome
 💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 30-12-2025
+
+🧠 Practice Work
+✅Learned about constuctors and its type in csharp
+💻 Solved two scenerio-based problems
+📁 Created and practiced programs on real life problems
+
+🎯 Outcome
+💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 31-12-2025
+
+🧠 Practice Work
+✅Learned about this,sealed, and static keyword in csharp
+💻 Solved three scenerio-based problems
+📁 Created and practiced programs on real life problems
+
+🎯 Outcome
+💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 1-01-2026
+
+🧠 Practice Work
+✅Learned about object-oriented design pricipals in csharp
+💻 Solved one scenerio-based problems
+📁 studied object-modeling and class-diagrams
+
+🎯 Outcome
+💡 Gained a clear understanding of how we approached a scenerio based problem and find solution
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 6-01-2026
+
+🧠 Practice Work
+📁 applied the oops concepts by solving a real-world,scenerio-based problem
+💻 complete all my pending problems becauze of medical leave
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+📅 Date: 7-01-2026
+
+🧠 Practice Work
+✅Learned the proper structure to approach and solved scenerio-based problems
+💻 Solved one scenerio-based problems
+📁 applied the oops concepts by solving a real-world,scenerio-based problem
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
