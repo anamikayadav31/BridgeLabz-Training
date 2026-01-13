@@ -214,4 +214,16 @@
 
 ---
 
+📅 Date: 13-01-2026
+
+🧠 Practice Work
+✅Learned the implementation of interface and abstraction in code.
+✅Learned the proper structure to approach and solved scenerio-based problems.
+💻 Solved two scenerio-based problems
+📁 applied the oops concepts by solving scenerio-based problems.
+
+---
+
+
+
 
