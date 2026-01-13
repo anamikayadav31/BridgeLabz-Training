@@ -10,8 +10,9 @@ namespace BridgeLabzTraining.oops.sceneriobased.MovieScheduleManager
     {
         
 
-        public static void  ShowMenu(MovieUtility utility)
+        public  void  ShowMenu()
         {
+            MovieUtility utility=new MovieUtility();
             string choice = "";
 
             while (choice != "4")
@@ -34,7 +35,7 @@ namespace BridgeLabzTraining.oops.sceneriobased.MovieScheduleManager
                         utility.displayAllMovies();
                         break;
                     case "4":
-                        return;
+                        break;
                     default:
                         Console.WriteLine("Invalid choice");
                         break;

@@ -7,13 +7,12 @@ namespace BridgeLabzTraining.oops.sceneriobased.MovieScheduleManager
     internal class MovieMain
 
     {
+    static void Main()
+    {
 
-        static void Main()
-        {
-             
-             MovieUtility utility = new MovieUtility();
-             Console.WriteLine("Welcome to Movie Schedule Manager");
-             MovieMenu.ShowMenu(utility);
-        }
+        MovieMenu menu = new MovieMenu();   
+        Console.WriteLine("Welcome to Movie Schedule Manager");
+        menu.ShowMenu();
+    }
     }
 }
