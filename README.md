@@ -224,6 +224,20 @@
 
 ---
 
+📅 Date: 14-01-2026
+
+🧠 Practice Work
+✅Learned the proper structure to approach and solved scenerio-based problems.
+💻 Solved one scenerio-based problems
+📁Adress Book System
+Created an encapsulated Contact model to securely store and manage personal contact details.
+Implemented features to add, edit, delete contacts using an array-based approach.
+Used interfaces and a menu-driven design.
+📁 applied the oops concepts by solving scenerio-based problems.
+
+---
+
+
 
 
 
