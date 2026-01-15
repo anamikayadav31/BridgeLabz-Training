@@ -6,45 +6,80 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
 {
     internal class AdressBookMenu
     {
-        
+
 
         public void ShowMenu()
         {
-            AdressBookUtility utility = new AdressBookUtility();
+            IAdress system = new AddressBookSystem();
+            AdressBookUtility selectedBook = null;
             string choice = "";
-            while (choice!="5")
+            while (choice != "8")
             {
-                Console.WriteLine("1.Add Contacts in AdressBook");
-                Console.WriteLine("2.Edit Contact in AdressBook");
-                Console.WriteLine("3.Delete Contact in AdressBook");
-                Console.WriteLine("4.Add multiple contacts in AdressBook");
-                Console.WriteLine("5.Exit");
+                Console.WriteLine("1. Add Address Book");
+                Console.WriteLine("2. Select Address Book");
+                Console.WriteLine("3. Add Contact");
+                Console.WriteLine("4. Edit Contact");
+                Console.WriteLine("5. Delete Contact");
+                Console.WriteLine("6. Add Multiple Contacts");
+                Console.WriteLine("7. Show Address Books");
+                Console.WriteLine("8. Exit");
                 Console.WriteLine("Enter your choice");
-                choice =Console.ReadLine();
+                choice = Console.ReadLine();
                 switch (choice)
                 {
                     case "1":
-                        utility.AddContact();
+                        system.AddAddressBook();
                         break;
+
                     case "2":
-                        utility.EditContact();
+                        selectedBook = system.SelectAddressBook();
                         break;
+
                     case "3":
-                        utility.DeleteContact();
+                        if (selectedBook != null)
+                            selectedBook.AddContact();
+                        else
+                            Console.WriteLine("Select Address Book first!");
                         break;
+
                     case "4":
-                        utility.AddMultipleContact();
+                        if (selectedBook != null)
+                            selectedBook.EditContact();
+                        else
+                            Console.WriteLine("Select Address Book first!");
                         break;
+
                     case "5":
+                        if (selectedBook != null)
+                            selectedBook.DeleteContact();
+                        else
+                            Console.WriteLine("Select Address Book first!");
                         break;
+
+                    case "6":
+                        if (selectedBook != null)
+                            selectedBook.AddMultipleContact();
+                        else
+                            Console.WriteLine("Select Address Book first!");
+                        break;
+                    case "7":
+                        system.DisplayAddressBooks(); 
+                        break;
+
+
+                    case "8":
+                        Console.WriteLine("Exiting...");
+                        break;
+
                     default:
                         Console.WriteLine("Invalid Choice");
                         break;
                 }
-
-
-                
             }
         }
+
+
+
+
     }
 }

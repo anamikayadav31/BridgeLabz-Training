@@ -10,5 +10,9 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
         void EditContact();
         void DeleteContact();
         void AddMultipleContact();
+        void AddAddressBook();
+        AdressBookUtility SelectAddressBook();
+        void DisplayAddressBooks();
+
     }
 }

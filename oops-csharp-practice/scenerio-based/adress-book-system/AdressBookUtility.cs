@@ -6,71 +6,159 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
 {
 
 
-    internal class AdressBookUtility : IAdress
-    {//Uc2
-     // Arrays to store contact details
-        private string[] firstnames;   // Stores first names of contacts
-        private string[] lastnames;    // Stores last names of contacts
-        private string[] adress;       // Stores addresses of contacts
-        private string[] state;        // Stores states of contacts
-        private int[] zipcode;         // Stores zip codes of contacts
-        private int[] phonenumber;     // Stores phone numbers of contacts
-        private string[] email;        // Stores emails of contacts
 
-        private int contactCount = 0;  // Keeps track of the number of contacts added
+
+    // ================= Address Book System =================
+    //UC6
+    internal class AddressBookSystem : IAdress
+    {
+        private string[] addressBookNames;
+        private AdressBookUtility[] addressBooks;
+        private int bookCount = 0;
+
+        public AddressBookSystem()
+        {
+            Console.WriteLine("Enter number of Address Books:");
+            int size = int.Parse(Console.ReadLine());
+
+            addressBookNames = new string[size];
+            addressBooks = new AdressBookUtility[size];
+        }
+
+       
+        public void AddAddressBook()
+        {
+            if (bookCount == addressBooks.Length)
+            {
+                Console.WriteLine("Address Book limit reached!");
+                return;
+            }
+
+            Console.WriteLine("Enter Address Book Name:");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                if (addressBookNames[i].Equals(name))
+                {
+                    Console.WriteLine("Address Book already exists!");
+                    return;
+                }
+            }
+
+            addressBookNames[bookCount] = name;
+            addressBooks[bookCount] = new AdressBookUtility();
+            bookCount++;
+
+            Console.WriteLine("Address Book created successfully!");
+        }
+
+        public AdressBookUtility SelectAddressBook()
+        {
+            Console.WriteLine("Enter Address Book Name to select:");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < bookCount; i++)
+            {
+                if (addressBookNames[i].Equals(name))
+                {
+                    return addressBooks[i];
+                }
+            }
+
+            Console.WriteLine("Address Book not found!");
+            return null;
+        }
+
+        public void DisplayAddressBooks()
+        {
+            if (bookCount == 0)
+            {
+                Console.WriteLine("No Address Books available.");
+                return;
+            }
+
+            Console.WriteLine("Available Address Books:");
+            for (int i = 0; i < bookCount; i++)
+            {
+                Console.WriteLine(addressBookNames[i]);
+            }
+        }
+
+        // Contact methods are not applicable for system-level class
+        public void AddContact() => Console.WriteLine("AddContact() not applicable for Address Book System.");
+        public void EditContact() => Console.WriteLine("EditContact() not applicable for Address Book System.");
+        public void DeleteContact() => Console.WriteLine("DeleteContact() not applicable for Address Book System.");
+        public void AddMultipleContact() => Console.WriteLine("AddMultipleContact() not applicable for Address Book System.");
+    }
+
+    // ================= Address Book Utility =================
+    //UC1
+    internal class AdressBookUtility : IAdress
+    {
+        private string[] firstnames;
+        private string[] lastnames;
+        private string[] address;
+        private string[] state;
+        private int[] zipcode;
+        private string[] phonenumber;
+        private string[] email;
+        private int contactCount = 0;
+
         public AdressBookUtility()
         {
-            Console.WriteLine("Enter the number of contacts:");
+            Console.WriteLine("Enter the number of contacts for this Address Book:");
             int numberOfContacts = int.Parse(Console.ReadLine());
+
             firstnames = new string[numberOfContacts];
             lastnames = new string[numberOfContacts];
-            adress = new string[numberOfContacts];
+            address = new string[numberOfContacts];
             state = new string[numberOfContacts];
             zipcode = new int[numberOfContacts];
-            phonenumber = new int[numberOfContacts];
+            phonenumber = new string[numberOfContacts];
             email = new string[numberOfContacts];
         }
-
-        // Method to add a new contact
+        //UC2
+        // Contact methods
         public void AddContact()
         {
-           
+            if (contactCount == firstnames.Length)
+            {
+                Console.WriteLine("Address Book is full!");
+                return;
+            }
 
-                // Taking input for each field of the contact
-                Console.WriteLine($"Enter the firstName of person{contactCount + 1}");
-                firstnames[contactCount] = Console.ReadLine();
+            Console.WriteLine($"Enter first name for person {contactCount + 1}:");
+            firstnames[contactCount] = Console.ReadLine();
 
-                Console.WriteLine($"Enter the LastName of person{contactCount + 1}");
-                lastnames[contactCount] = Console.ReadLine();
+            Console.WriteLine($"Enter last name for person {contactCount + 1}:");
+            lastnames[contactCount] = Console.ReadLine();
 
-                Console.WriteLine($"Enter the adress of person{contactCount + 1}");
-                adress[contactCount] = Console.ReadLine();
+            Console.WriteLine($"Enter address for person {contactCount + 1}:");
+            address[contactCount] = Console.ReadLine();
 
-                Console.WriteLine($"Enter the state {contactCount + 1}");
-                state[contactCount] = Console.ReadLine();
+            Console.WriteLine($"Enter state for person {contactCount + 1}:");
+            state[contactCount] = Console.ReadLine();
 
-                Console.WriteLine($"Enter the zipcode {contactCount + 1}");
-                zipcode[contactCount] = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Enter zipcode for person {contactCount + 1}:");
+            zipcode[contactCount] = int.Parse(Console.ReadLine());
 
-                Console.WriteLine($"Enter the PhoneNumber of person{contactCount + 1}");
-                phonenumber[contactCount] = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Enter phone number for person {contactCount + 1}:");
+            phonenumber[contactCount] = Console.ReadLine();
 
-                Console.WriteLine($"Enter the Email of person{contactCount + 1}");
-                email[contactCount] = Console.ReadLine();
-            
+            Console.WriteLine($"Enter email for person {contactCount + 1}:");
+            email[contactCount] = Console.ReadLine();
 
-            // Increment contact count after adding a contact
             contactCount++;
-            
-        }
-        //UC3
-        public void EditContact()
-        {//ask user to enter name of person to change contact information
-            Console.WriteLine("Enter the old first name:");
-            string oldName = Console.ReadLine();
+            Console.WriteLine("Contact added successfully!");
+        }//UC3
 
+        public void EditContact()
+        {
+            Console.WriteLine("Enter first name of the person to edit:");
+            string oldName = Console.ReadLine();
             bool found = false;
-            //loop
+
             for (int i = 0; i < contactCount; i++)
             {
                 if (firstnames[i].Equals(oldName))
@@ -82,7 +170,7 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
                     lastnames[i] = Console.ReadLine();
 
                     Console.WriteLine("Enter new address:");
-                    adress[i] = Console.ReadLine();
+                    address[i] = Console.ReadLine();
 
                     Console.WriteLine("Enter new state:");
                     state[i] = Console.ReadLine();
@@ -91,7 +179,7 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
                     zipcode[i] = int.Parse(Console.ReadLine());
 
                     Console.WriteLine("Enter new phone number:");
-                    phonenumber[i] = int.Parse(Console.ReadLine());
+                    phonenumber[i] = Console.ReadLine();
 
                     Console.WriteLine("Enter new email:");
                     email[i] = Console.ReadLine();
@@ -103,20 +191,15 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
             }
 
             if (!found)
-            {
                 Console.WriteLine("Contact not found!");
-            }
         }
-
         //UC4
         public void DeleteContact()
         {
-            Console.WriteLine("Enter the first name of the person to delete:");
+            Console.WriteLine("Enter first name of the person to delete:");
             string nameToDelete = Console.ReadLine();
-
             int deleteIndex = -1;
 
-            // Step 1: Find contact index
             for (int i = 0; i < contactCount; i++)
             {
                 if (firstnames[i].Equals(nameToDelete))
@@ -126,81 +209,48 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
                 }
             }
 
-            // Step 2: If not found
             if (deleteIndex == -1)
             {
                 Console.WriteLine("Contact not found!");
                 return;
             }
 
-            // Step 3: Shift elements to left
             for (int i = deleteIndex; i < contactCount - 1; i++)
             {
                 firstnames[i] = firstnames[i + 1];
                 lastnames[i] = lastnames[i + 1];
-                adress[i] = adress[i + 1];
+                address[i] = address[i + 1];
                 state[i] = state[i + 1];
                 zipcode[i] = zipcode[i + 1];
                 phonenumber[i] = phonenumber[i + 1];
                 email[i] = email[i + 1];
             }
 
-            // Step 4: Reduce count
             contactCount--;
-
-            // Step 5: Resize arrays
-            // Create new arrays with reduced size
-            string[] newFirstnames = new string[contactCount];
-            string[] newLastnames = new string[contactCount];
-            string[] newAdress = new string[contactCount];
-            string[] newState = new string[contactCount];
-            int[] newZipcode = new int[contactCount];
-            int[] newPhonenumber = new int[contactCount];
-            string[] newEmail = new string[contactCount];
-
-            // Copy data using for loop
-            for (int i = 0; i < contactCount; i++)
-            {
-                newFirstnames[i] = firstnames[i];
-                newLastnames[i] = lastnames[i];
-                newAdress[i] = adress[i];
-                newState[i] = state[i];
-                newZipcode[i] = zipcode[i];
-                newPhonenumber[i] = phonenumber[i];
-                newEmail[i] = email[i];
-            }
-
-            // Assign new arrays back
-            firstnames = newFirstnames;
-            lastnames = newLastnames;
-            adress = newAdress;
-            state = newState;
-            zipcode = newZipcode;
-            phonenumber = newPhonenumber;
-            email = newEmail;
-
             Console.WriteLine("Contact deleted successfully!");
         }
 
-        //UC5
         public void AddMultipleContact()
         {
-            string option="";
-           
+            string option;
             do
             {
                 AddContact();
                 if (contactCount == firstnames.Length)
                 {
-                    Console.WriteLine("Adress Book is full!");
+                    Console.WriteLine("Address Book is full!");
                     break;
                 }
-                Console.WriteLine("Do you want to add more contacts(Enter Yes/No):");
-                 option = Console.ReadLine();
-            }
-            while (option.Equals("Yes")) ;
-
-
+                Console.WriteLine("Do you want to add more contacts (Yes/No)?");
+                option = Console.ReadLine();
+            } while (option.Equals("Yes"));
         }
+
+        // System-level methods not applicable for single address book
+        public void AddAddressBook() => Console.WriteLine("AddAddressBook() not applicable for single Address Book.");
+        public AdressBookUtility SelectAddressBook() { Console.WriteLine("SelectAddressBook() not applicable for single Address Book."); return null; }
+        public void DisplayAddressBooks() => Console.WriteLine("DisplayAddressBooks() not applicable for single Address Book.");
     }
+
+
 }
