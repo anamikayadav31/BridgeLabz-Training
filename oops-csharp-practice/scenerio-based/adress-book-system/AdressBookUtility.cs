@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -121,7 +121,23 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
         //UC2
         // Contact methods
         public void AddContact()
+
         {
+            Console.WriteLine($"Enter first name for person {contactCount + 1}:");
+            string fname = Console.ReadLine();
+
+            // UC7 – Duplicate check using array
+            for (int i = 0; i < contactCount; i++)
+            {
+                if (firstnames[i].Equals(fname, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine("Duplicate entry! Person already exists.");
+                    return;
+                }
+            }
+
+            firstnames[contactCount] = fname;
+
             if (contactCount == firstnames.Length)
             {
                 Console.WriteLine("Address Book is full!");
@@ -246,6 +262,101 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
             } while (option.Equals("Yes"));
         }
 
+        public void SearchByCityOrState()
+        {
+            Console.WriteLine("Enter the city or State name:");
+            string value = Console.ReadLine();
+            for (int i = 0; i < contactCount; i++)
+            {
+                if (address[i].Equals(value) ||
+                    state[i].Equals(value))
+                {
+                    Console.WriteLine($"{firstnames[i]} {lastnames[i]} - {address[i]}, {state[i]}");
+                }
+            }
+        }
+
+        //UC9
+        public void ViewPersonsByCity()
+        {
+            Console.WriteLine("Enter the city name:");
+            string city = Console.ReadLine();
+            Console.WriteLine($"Persons in city: {city}");
+            for (int i = 0; i < contactCount; i++)
+            {
+                if (address[i].Equals(city))
+                {
+                    Console.WriteLine(firstnames[i] + " " + lastnames[i]);
+                }
+            }
+        }
+       
+        //UC10
+        public void CountByCity()
+        {
+            Console.WriteLine("Enter the city name:");
+            string city = Console.ReadLine();
+            int count = 0;
+            for (int i = 0; i < contactCount; i++)
+            {
+                if (address[i].Equals(city))
+                    count++;
+            }
+            Console.WriteLine($"Total persons in {city}: {count}");
+        }
+        //UC11
+        public void SortContactsByName()
+        {
+            for (int i = 0; i < contactCount - 1; i++)
+            {
+                for (int j = i + 1; j < contactCount; j++)
+                {
+                    if (string.Compare(firstnames[i], firstnames[j], true) > 0)
+                    {
+                        // swap firstnames
+                        string tempFirst = firstnames[i];
+                        firstnames[i] = firstnames[j];
+                        firstnames[j] = tempFirst;
+
+                        // swap lastnames
+                        string tempLast = lastnames[i];
+                        lastnames[i] = lastnames[j];
+                        lastnames[j] = tempLast;
+
+                        // swap address
+                        string tempAddress = address[i];
+                        address[i] = address[j];
+                        address[j] = tempAddress;
+
+                        // swap state
+                        string tempState = state[i];
+                        state[i] = state[j];
+                        state[j] = tempState;
+
+                        // swap zipcode
+                        int tempZip = zipcode[i];
+                        zipcode[i] = zipcode[j];
+                        zipcode[j] = tempZip;
+
+                        // swap phone
+                        string tempPhone = phonenumber[i];
+                        phonenumber[i] = phonenumber[j];
+                        phonenumber[j] = tempPhone;
+
+                        // swap email
+                        string tempEmail = email[i];
+                        email[i] = email[j];
+                        email[j] = tempEmail;
+                    }
+                }
+            }
+
+            Console.WriteLine("Contacts sorted alphabetically by first name.");
+        }
+
+
+
+
         // System-level methods not applicable for single address book
         public void AddAddressBook() => Console.WriteLine("AddAddressBook() not applicable for single Address Book.");
         public AdressBookUtility SelectAddressBook() { Console.WriteLine("SelectAddressBook() not applicable for single Address Book."); return null; }
@@ -254,3 +365,4 @@ namespace BridgeLabzTraining.oops.sceneriobased.AdressBookFolder
 
 
 }
+*/
