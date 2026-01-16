@@ -236,6 +236,38 @@ Used interfaces and a menu-driven design.
 📁 applied the oops concepts by solving scenerio-based problems.
 
 ---
+📅 Date: 15-01-2026
+
+🧠 Practice Work
+✅Learned the proper structure to approach and solved scenerio-based problems.
+💻 Solved a scenerio-based problems
+📁Adress Book System
+Add and manage multiple Address Books and persons using Collections
+Prevent duplicates, search, view, and count contacts by City/State
+Sort persons alphabetically and display details using overridden methods
+📁 applied the oops concepts by solving scenerio-based problems.
+
+---
+
+📅 Date: 16-01-2026
+
+🧠 Practice Work
+💻 Solved three scenerio-based problems
+📁Browser Buddy:
+Uses Doubly Linked List to support Back and Forward navigation.
+Stack stores recently closed tabs for easy restoration.
+📁Traffic Manager:
+Vehicles managed using Circular Linked List for continuous movement
+Queue controls vehicle entry with overflow and underflow handling
+Supports dynamic add, remove, and display of vehicles
+📁Book Shelf:
+Dictionary (HashMap) maps genre to a LinkedList of books.
+Efficient book insert and delete operations.
+HashSet used to prevent duplicate book entrie.
+
+---
+
+
 
 
 
