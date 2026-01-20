@@ -267,9 +267,37 @@ HashSet used to prevent duplicate book entrie.
 
 ---
 
+📅 Date: 17-01-2026
+🧠 Practice Work
+💻 Solved two scenerio-based problems
+📁FlashDealz:
+Uses Quick Sort to efficiently sort millions of products by discount, ensuring fast performance during flash sales.
+📁FitnessTracker: 
+Uses Bubble Sort for quick re-ranking of a small group of users with frequently updated step counts.
+
+---
 
 
+📅 Date: 19-01-2026
+🧠 Practice Work
+💻 Solved two scenerio-based problems
+✅Learned about Generics.
+📁ParcelTracker:
+Uses a Singly Linked List to track parcel movement through delivery stages, allowing forward traversal, adding checkpoints, and handling missing stages safely.
+📁ExamProctor:
+Uses a Stack to track question navigation, a HashMap to store answers, and functions to automatically evaluate and calculate exam scores on submission.
 
+---
 
+📅 Date: 20-01-2026
+🧠 Practice Work
+💻 Solved two scenerio-based problems
+✅Learned about Collections in csharp.
+📁Aadhar Number Sorting:
+Uses Radix Sort to efficiently sort 12-digit Aadhar numbers, maintain order for same prefixes, and enable fast binary search.
+📁Password Cracker Simulator:
+Uses Backtracking to generate all possible strings of length n, stop when the password is found, and illustrate time-space complexity of exhaustive search.
+
+---
 
 
