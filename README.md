@@ -301,3 +301,20 @@ Uses Backtracking to generate all possible strings of length n, stop when the pa
 ---
 
 
+📅 Date: 21-01-2026
+🧠 Practice Work
+💻 Solved two scenerio-based problems
+✅Learned about Collections and Generics in csharp.
+📁EduResults– Rank Sheet Generator:
+Combines sorted student lists from different districts into one rank list.
+Uses Merge Sort for fast and stable sorting.
+Handles large numbers of students efficiently.
+📁SmartCheckout– Supermarket Billing Queue:
+Manages customers using a Queue at checkout counters.
+Uses HashMap to quickly get item prices and stock.
+Updates stock automatically after each purchase.
+
+---
+
+
+
