@@ -317,4 +317,43 @@ Updates stock automatically after each purchase.
 ---
 
 
+📅 Date: 22-01-2026
+🧠 Practice Work
+💻 Solved scenerio-based problems
+✅Learned about Exceptions in csharp.
+📁AmbulanceRoute – Emergency Patient Navigation:
+Simulates emergency patient routing through hospital units using a circular linked list.
+Redirects patients until an available unit is found.
+Allows removal of units under maintenance for dynamic hospital management.
+
+
+---
+
+
+📅 Date: 23-01-2026
+🧠 Practice Work
+💻 Solved  scenerio-based problems
+✅Learned about Annotations,regex in csharp.
+✅Learned about all sorting algorithm
+💻solved all the questions based on annotations
+
+---
+📅 Date: 27-01-2026
+🧠 Practice Work
+💻 Solved  scenerio-based problems
+✅Learned about nunit,reflections in csharp.
+💻solved all the questions based on nunit ,reflections
+
+---
+📅 Date: 28-01-2026
+🧠 Practice Work
+💻 Solved  two scenerio-based problems
+📁HealthCheckPro – API Metadata Validator
+Scans RESTful API controller methods using Reflection .
+Ensures all API methods are properly documented and compliant.
+Auto-generates API documentation for developers.
+📁EventTracker – Auto Audit System
+Monitors user actions in an enterprise system via methods marked with @AuditTrail.
+Uses Reflection to identify annotated methods and capture event metadata.
+Generates structured JSON logs with timestamps for auditing purposes
 
