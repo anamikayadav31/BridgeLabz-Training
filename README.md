@@ -355,5 +355,40 @@ Auto-generates API documentation for developers.
 📁EventTracker – Auto Audit System
 Monitors user actions in an enterprise system via methods marked with @AuditTrail.
 Uses Reflection to identify annotated methods and capture event metadata.
-Generates structured JSON logs with timestamps for auditing purposes
+Generates structured JSON logs with timestamps for auditing purposes.
+
+---
+📅 Date: 29-01-2026
+🧠 Practice Work
+💻 Solved  scenerio-based problems
+📁Worked on an Ocean Fleet scenario 
+✅Learned about regex, nunit,reflections in csharp.
+💻solved all the questions based on nunit ,reflections
+
+---
+📅 Date: 30-01-2026
+🧠 Practice Work
+💻 Solved  scenerio-based problems
+📁Worked on a Lexical Twist concept to improve understanding of string manipulation.
+✅Learned about nunit,reflections in csharp.
+💻solved all the questions based on nunit ,reflections
+
+
+---
+📅 Date: 02-02-2026
+🧠 Practice Work
+✅Learned about design patterns,design pricipals in csharp
+💻 Solved  scenerio-based problems
+📁Flip Key Logical problem
+
+
+---
+
+📅 Date: 03-02-2026
+🧠 Practice Work
+✅Learned about Multithreading in csharp
+💻 Solved  scenerio-based problems
+📁 Factory Robot Hazard Analyzer.
+
+
 
