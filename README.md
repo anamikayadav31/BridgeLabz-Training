@@ -390,5 +390,20 @@ Generates structured JSON logs with timestamps for auditing purposes.
 💻 Solved  scenerio-based problems
 📁 Factory Robot Hazard Analyzer.
 
+---
+
+📅 Date: 04-02-2026
+🧠 Practice Work
+✅Learned about DBMS SQL commands 
+💻 Solved query based on sql commands 
+
+---
+
+📅 Date: 05-02-2026
+🧠 Practice Work
+✅Learned about the stored procedures,triggers,er diagram
+💻Implements query based on stored procedures,triggers
+
+
 
 
