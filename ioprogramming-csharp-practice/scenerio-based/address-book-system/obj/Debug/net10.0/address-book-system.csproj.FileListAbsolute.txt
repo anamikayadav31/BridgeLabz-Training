@@ -1,0 +1,15 @@
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\bin\Debug\net10.0\address-book-system.exe
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\bin\Debug\net10.0\address-book-system.deps.json
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\bin\Debug\net10.0\address-book-system.runtimeconfig.json
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\bin\Debug\net10.0\address-book-system.dll
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\bin\Debug\net10.0\address-book-system.pdb
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.GeneratedMSBuildEditorConfig.editorconfig
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.AssemblyInfoInputs.cache
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.AssemblyInfo.cs
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.csproj.CoreCompileInputs.cache
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.sourcelink.json
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.dll
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\refint\address-book-system.dll
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.pdb
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\address-book-system.genruntimeconfig.cache
+d:\BridgeLabz-Training\io-programming-csharp-practice\scenario-based\address-book-system\obj\Debug\net10.0\ref\address-book-system.dll
