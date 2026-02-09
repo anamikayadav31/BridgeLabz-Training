@@ -1,18 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
-namespace BridgeLabzTraining.Collections.scnerio_based.adress_book
+namespace AddressBookSystem
 {
     internal class AddressBookMain
     {
-
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Address Book Program");
-            AddressBookMenu menu = new AddressBookMenu();
-            menu.ShowMenu();
+            try
+            {
+                Console.WriteLine("WELCOME TO ADDRESS BOOK SYSTEM ---> ");
+                AddressBookMenu menu = new AddressBookMenu();
+                menu.ShowMenu();
+            }
+            catch (Exception ex) // catches unexpected crash
+            {
+                Console.WriteLine("System Error: " + ex.Message);
+            }
         }
     }
 }

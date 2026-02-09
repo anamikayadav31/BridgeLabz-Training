@@ -1,97 +1,130 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System;
 
-namespace BridgeLabzTraining.Collections.scnerio_based.adress_book
+namespace AddressBookSystem
 {
-
-
     internal class AddressBookMenu
     {
-        private AddressBookSystem system = new AddressBookSystem();
-        private AddressBookUtility selectedBook = null;
-
         public void ShowMenu()
         {
-            string choice = "";
+            AddressBookUtility currentBook = null;
 
-            while (choice != "12")
+            while (true)
             {
-                Console.WriteLine("\n------ ADDRESS BOOK MENU ------");
-                Console.WriteLine("1. Add Address Book");
-                Console.WriteLine("2. Select Address Book");
-                Console.WriteLine("3. Add Contact");
-                Console.WriteLine("4. Edit Contact");
-                Console.WriteLine("5. Delete Contact");
-                Console.WriteLine("6. View Persons By City");
-                Console.WriteLine("7. Count Contacts By City");
-                Console.WriteLine("8. Sort Contacts By Name");
-                Console.WriteLine("9. Show Address Books");
-                Console.WriteLine("12. Exit");
-                Console.Write("Enter choice: ");
-
-                choice = Console.ReadLine();
-
-                switch (choice)
+                try
                 {
-                    case "1":
-                        system.AddAddressBook();
-                        break;
+                    Console.WriteLine("\n===============================");
+                    Console.WriteLine(" ADDRESS BOOK MENU ");
+                    Console.WriteLine("===============================");
+                    Console.WriteLine("1. Create Address Book");
+                    Console.WriteLine("2. Select Address Book");
+                    Console.WriteLine("3. Add Contact");
+                    Console.WriteLine("4. Edit Contact");
+                    Console.WriteLine("5. Delete Contact");
+                    Console.WriteLine("6. Add Multiple Contacts");
+                    Console.WriteLine("7. Search by City/State");
+                    Console.WriteLine("8. View persons by City/State");
+                    Console.WriteLine("9. Count persons by City/State");
+                    Console.WriteLine("10. Sort contacts by Name");
+                    Console.WriteLine("11. Sort contacts by City");   // UC-12
+                    Console.WriteLine("12. Sort contacts by State");  // UC-12
+                    Console.WriteLine("13. Sort contacts by Zip");    // UC-12
+                    Console.WriteLine("14. Write contacts to File");   // UC-13
+                    Console.WriteLine("15. Read contacts from File"); // UC-13
+                    Console.WriteLine("16. Exit");
+                    Console.Write("Enter your choice: ");
 
-                    case "2":
-                        selectedBook = system.SelectAddressBook();
-                        break;
+                    string choice = Console.ReadLine();
 
-                    case "3":
-                        CheckSelected();
-                        selectedBook?.AddContact();
-                        break;
+                    switch (choice)
+                    {
+                        case "1":
+                            AddressBookUtility.CreateAddressBook();
+                            break;
 
-                    case "4":
-                        CheckSelected();
-                        selectedBook?.EditContact();
-                        break;
+                        case "2":
+                            currentBook = AddressBookUtility.SelectAddressBook();
+                            break;
 
-                    case "5":
-                        CheckSelected();
-                        selectedBook?.DeleteContact();
-                        break;
+                        case "3":
+                            if (currentBook != null) currentBook.AddContact();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    case "6":
-                        CheckSelected();
-                        selectedBook?.ViewPersonsByCity();
-                        break;
+                        case "4":
+                            if (currentBook != null) currentBook.EditContact();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    case "7":
-                        CheckSelected();
-                        selectedBook?.CountByCity();
-                        break;
+                        case "5":
+                            if (currentBook != null) currentBook.DeleteContact();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    case "8":
-                        CheckSelected();
-                        selectedBook?.SortContactsByName();
-                        break;
+                        case "6":
+                            if (currentBook != null) currentBook.AddMultipleContacts();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    case "9":
-                        system.DisplayAddressBooks();
-                        break;
+                        case "7":
+                            if (currentBook != null) currentBook.SearchByCityOrState();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    case "12":
-                        Console.WriteLine("Exiting program...");
-                        break;
+                        case "8":
+                            if (currentBook != null) currentBook.ViewPersonsByCityOrState();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
 
-                    default:
-                        Console.WriteLine("Invalid choice!");
-                        break;
+                        case "9":
+                            if (currentBook != null) currentBook.CountPersonsByCityOrState();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "10":
+                            if (currentBook != null) currentBook.SortContactsByName();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "11":
+                            if (currentBook != null) currentBook.SortContactsByCity();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "12":
+                            if (currentBook != null) currentBook.SortContactsByState();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "13":
+                            if (currentBook != null) currentBook.SortContactsByZip();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "14":
+                            if (currentBook != null) currentBook.WriteContactsToFile();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+                        case "15":
+                            if (currentBook != null) currentBook.ReadContactsFromFile();
+                            else Console.WriteLine("Please select an address book first!");
+                            break;
+
+
+                        case "16":
+                            Console.WriteLine("Exiting Address Book System...");
+                            return;
+
+                        default:
+                            Console.WriteLine("Invalid choice! Try again.");
+                            break;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Menu Error: " + ex.Message);
                 }
             }
         }
-
-        private void CheckSelected()
-        {
-            if (selectedBook == null)
-                Console.WriteLine("⚠ Please select an Address Book first!");
-        }
     }
-
 }
