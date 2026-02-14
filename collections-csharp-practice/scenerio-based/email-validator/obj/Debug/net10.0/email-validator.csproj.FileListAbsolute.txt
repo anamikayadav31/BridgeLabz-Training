@@ -1,0 +1,15 @@
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.AssemblyInfoInputs.cache
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.AssemblyInfo.cs
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.csproj.CoreCompileInputs.cache
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.sourcelink.json
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\bin\Debug\net10.0\email-validator.exe
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\bin\Debug\net10.0\email-validator.deps.json
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\bin\Debug\net10.0\email-validator.runtimeconfig.json
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\bin\Debug\net10.0\email-validator.dll
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\bin\Debug\net10.0\email-validator.pdb
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.dll
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\refint\email-validator.dll
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.pdb
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\email-validator.genruntimeconfig.cache
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\email-validator\obj\Debug\net10.0\ref\email-validator.dll
