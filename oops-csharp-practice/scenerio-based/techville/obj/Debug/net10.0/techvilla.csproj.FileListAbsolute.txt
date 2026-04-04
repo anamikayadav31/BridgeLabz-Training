@@ -1,0 +1,15 @@
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.AssemblyInfoInputs.cache
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.AssemblyInfo.cs
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.csproj.CoreCompileInputs.cache
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.sourcelink.json
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\bin\Debug\net10.0\techvilla.exe
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\bin\Debug\net10.0\techvilla.deps.json
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\bin\Debug\net10.0\techvilla.runtimeconfig.json
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\bin\Debug\net10.0\techvilla.dll
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\bin\Debug\net10.0\techvilla.pdb
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.dll
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\refint\techvilla.dll
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.pdb
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\techvilla.genruntimeconfig.cache
+D:\BridgeLabz-Training\oops-csharp-practice\scenerio-based\techville\obj\Debug\net10.0\ref\techvilla.dll
