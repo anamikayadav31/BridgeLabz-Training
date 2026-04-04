@@ -1,0 +1,5 @@
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\bank-account\obj\Debug\net10.0\bank-account.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\bank-account\obj\Debug\net10.0\bank-account.AssemblyInfoInputs.cache
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\bank-account\obj\Debug\net10.0\bank-account.AssemblyInfo.cs
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\bank-account\obj\Debug\net10.0\bank-account.csproj.CoreCompileInputs.cache
+D:\BridgeLabz-Training\collections-csharp-practice\scenerio-based\bank-account\obj\Debug\net10.0\bank-account.sourcelink.json
