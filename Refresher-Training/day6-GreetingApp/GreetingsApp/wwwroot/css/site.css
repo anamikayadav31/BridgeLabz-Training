@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8f5e9;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}

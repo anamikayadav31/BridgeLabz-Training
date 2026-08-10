@@ -1,0 +1,29 @@
+@model GreetingsApp.Models.GreetingModel
+
+<h2>👋 Welcome!</h2>
+
+<p>
+    🕒 It's currently:
+    <strong>@Model.TimeOfDay</strong>
+</p>
+
+<form asp-controller="Home" asp-action="Index" method="post">
+
+    <label for="Name">Enter your name:</label>
+
+    <input type="text"
+           id="Name"
+           name="Name"
+           placeholder="e.g. Anamika"
+           required>
+
+    <button type="submit">Greet Me!</button>
+
+</form>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="message">
+        <p>@Model.Message</p>
+    </div>
+}
