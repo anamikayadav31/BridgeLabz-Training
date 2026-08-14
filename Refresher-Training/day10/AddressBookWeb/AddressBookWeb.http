@@ -1,0 +1,34 @@
+@AddressBookWeb_HostAddress = http://localhost:5133
+
+### Get all contacts
+GET {{AddressBookWeb_HostAddress}}/api/addressbook
+Accept: application/json
+
+### Get contact by id
+GET {{AddressBookWeb_HostAddress}}/api/addressbook/1
+Accept: application/json
+
+### Add new contact
+POST {{AddressBookWeb_HostAddress}}/api/addressbook
+Content-Type: application/json
+
+{
+  "name": "Rahul Sharma",
+  "email": "rahul@example.com",
+  "phoneNumber": "9876543210",
+  "address": "Agra, UP"
+}
+
+### Update contact
+PUT {{AddressBookWeb_HostAddress}}/api/addressbook/1
+Content-Type: application/json
+
+{
+  "name": "Rahul Sharma Updated",
+  "email": "rahul.updated@example.com",
+  "phoneNumber": "9876543211",
+  "address": "Delhi"
+}
+
+### Delete contact
+DELETE {{AddressBookWeb_HostAddress}}/api/addressbook/1
