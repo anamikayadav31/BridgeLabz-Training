@@ -7,31 +7,57 @@ namespace BusinessLayer.Service
 {
     public class AddressBookBL : IAddressBookBL
     {
+        // ------------------------------------------------
         // Repository object
+        // ------------------------------------------------
+
+        // We use this object to communicate with
+        // the Repository Layer.
         private readonly IAddressBookRL _repository;
 
-        // Constructor - gets repository using Dependency Injection
+
+        // ------------------------------------------------
+        // Constructor
+        // ------------------------------------------------
+
+        // Dependency Injection gives us the Repository object.
         public AddressBookBL(IAddressBookRL repository)
         {
             _repository = repository;
         }
 
-        // Get all contacts
+
+        // ------------------------------------------------
+        // GET ALL CONTACTS
+        // ------------------------------------------------
+
         public List<AddressBookEntity> GetAll()
         {
+            // Ask Repository Layer to get all contacts
             return _repository.GetAll();
         }
 
-        // Get one contact by ID
+
+        // ------------------------------------------------
+        // GET CONTACT BY ID
+        // ------------------------------------------------
+
         public AddressBookEntity? GetById(int id)
         {
+            // Ask Repository Layer to find contact by ID
             return _repository.GetById(id);
         }
 
-        // Add a new contact
+
+        // ------------------------------------------------
+        // ADD CONTACT
+        // ------------------------------------------------
+
         public AddressBookEntity Add(AddressBookDTO dto)
         {
-            // Convert DTO into Entity
+            // DTO contains data coming from the API.
+
+            // Convert DTO into Entity.
             var entity = new AddressBookEntity
             {
                 Name = dto.Name,
@@ -40,14 +66,20 @@ namespace BusinessLayer.Service
                 Address = dto.Address
             };
 
-            // Send entity to Repository
+            // Send Entity to Repository Layer
             return _repository.Add(entity);
         }
 
-        // Update an existing contact
-        public AddressBookEntity? Update(int id, AddressBookDTO dto)
+
+        // ------------------------------------------------
+        // UPDATE CONTACT
+        // ------------------------------------------------
+
+        public AddressBookEntity? Update(
+            int id,
+            AddressBookDTO dto)
         {
-            // Convert DTO into Entity
+            // Convert DTO into Entity.
             var entity = new AddressBookEntity
             {
                 Name = dto.Name,
@@ -56,13 +88,18 @@ namespace BusinessLayer.Service
                 Address = dto.Address
             };
 
-            // Send updated data to Repository
+            // Send updated Entity to Repository
             return _repository.Update(id, entity);
         }
 
-        // Delete a contact
+
+        // ------------------------------------------------
+        // DELETE CONTACT
+        // ------------------------------------------------
+
         public bool Delete(int id)
         {
+            // Ask Repository Layer to delete the contact
             return _repository.Delete(id);
         }
     }

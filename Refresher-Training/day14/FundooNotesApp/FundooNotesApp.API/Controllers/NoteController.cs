@@ -7,8 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FundooNotesApp.API.Controllers;
 
-// Every action here starts with: /api/note/...
-//
+
 // [Authorize] on the WHOLE controller (instead of on each method) means
 // EVERY endpoint below requires a valid "Authorization: Bearer <token>"
 // header. This makes sense for notes - there's no such thing as an
