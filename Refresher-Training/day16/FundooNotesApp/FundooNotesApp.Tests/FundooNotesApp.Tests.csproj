@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- MSTest itself - lets us write [TestClass]/[TestMethod] tests. -->
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.2.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FundooNotesApp.BusinessLayer\FundooNotesApp.BusinessLayer.csproj" />
+    <ProjectReference Include="..\FundooNotesApp.ModelLayer\FundooNotesApp.ModelLayer.csproj" />
+    <ProjectReference Include="..\FundooNotesApp.RepositoryLayer\FundooNotesApp.RepositoryLayer.csproj" />
+  </ItemGroup>
+
+</Project>
